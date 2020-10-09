@@ -1,0 +1,72 @@
+{
+  "name": "log-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "3d-force-graph": "^1.66.1",
+    "@ant-design/icons": "^4.2.1",
+    "@ant-design/icons-react": "^2.0.1",
+    "@syncfusion/ej2-react-charts": "^18.2.48",
+    "@syncfusion/ej2-react-diagrams": "^18.2.46",
+    "@types/react-select": "^3.0.14",
+    "antd": "^3.26.18",
+    "axios": "^0.18.1",
+    "bootstrap": "^4.5.0",
+    "chart.js": "^2.9.3",
+    "d3": "^5.16.0",
+    "d3-drag": "^1.2.5",
+    "d3-force": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "gojs": "^2.1.21",
+    "gojs-react": "^1.0.7",
+    "http": "0.0.1-security",
+    "js-file-download": "^0.4.12",
+    "json2csv": "^5.0.1",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.19",
+    "mdbreact": "^4.27.0",
+    "moment": "^2.27.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-typeahead": "^5.1.0",
+    "react-chartjs-2": "^2.9.0",
+    "react-csv": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-file-base64": "^1.0.3",
+    "react-force-graph": "^1.36.1",
+    "react-iframe": "^1.8.0",
+    "react-json-to-csv": "^1.0.4",
+    "react-network-diagrams": "^0.8.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^3.4.3",
+    "react-select": "^3.1.0",
+    "react-table": "^7.2.2",
+    "react-tabs": "^3.1.1",
+    "recharts": "^1.8.5",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "three": "^0.114.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "sass --watch --sourcemap=none src/Styles/main.scss:public/css/styles.css --style compressed & PORT=7000 react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.10.4"
+  }
+}
